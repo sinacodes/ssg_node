@@ -1,0 +1,27 @@
+{
+  "name": "ssg_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-pages": "nodemon -e js,json,css,md,html -i dist -x",
+    "serve": "serve dist",
+    "start": "concurrently --kill-others \"npm run build-pages\" \"npm run serve\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "fast-glob": "^3.1.0",
+    "fs-extra": "^8.1.0",
+    "gray-matter": "^4.0.2",
+    "handlebars": "^4.5.1",
+    "marked": "^0.7.0",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "serve": "^11.2.0",
+    "slug": "^1.1.0"
+  },
+  "dependencies": {}
+}
