@@ -17,7 +17,7 @@
     "fs-extra": "^8.1.0",
     "gray-matter": "^4.0.2",
     "handlebars": "^4.5.1",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "nodemon": "^1.19.4",
     "path": "^0.12.7",
     "serve": "^11.2.0",
